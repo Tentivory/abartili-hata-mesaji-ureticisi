@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Abartılı Hata Mesajı Üreticisi
-Dünyanın en gereksiz ama en ciddi yazılımı.
+Abartılı Hata Mesajı Üreticisi v2 - Daha da abartılı
+Dünyanın en gereksiz ama en ciddi yazılımı. Güncellendi.
 """
 
 import random
@@ -15,13 +15,14 @@ HATALAR = [
     "PANIC: Fonksiyon çağrıldı ama içinde ruh yok. Lütfen bir dua ekleyin.",
     "EXCEPTION: Try-except bloğun, aslında hayatın kendisi. Hepsi boşa çıktı.",
     "SYNTAX ERROR: Virgül yerine nokta koydun. Bu, Cumhuriyet'in temellerini sarsar.",
-    "RUNTIME ERROR: Kod çalıştı ama içinden bir ses 'neden?' diye sordu."
+    "RUNTIME ERROR: Kod çalıştı ama içinden bir ses 'neden?' diye sordu.",
+    "ULTIMATE ERROR: Bu satırı okuduğun için artık sen de sistemin bir parçasısın. Kaçış yok."
 ]
 
 def uret_hata():
     mesaj = random.choice(HATALAR)
     print("=" * 60)
-    print("  🚨 ABARTILI HATA MESAJI  🚨")
+    print("  🚨 ABARTILI HATA MESAJI v2 🚨")
     print("=" * 60)
     print(mesaj)
     print("=" * 60)
